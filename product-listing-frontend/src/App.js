@@ -67,7 +67,7 @@ function App() {
       { breakpoint: 992, settings: { slidesToShow: 2 } },
       { breakpoint: 576, settings: { slidesToShow: 1 } },
     ]
-  };
+  }; 
 
   const colorMap = { yellow: "#E6CA97", white: "#D9D9D9", rose: "#E1A4A9" };
 
