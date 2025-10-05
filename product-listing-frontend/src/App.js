@@ -43,7 +43,7 @@ function App() {
   const [colors, setColors] = useState({});
 
   useEffect(() => {
-    axios.get("http://localhost:5000/products")
+    axios.get("https://goldshop-2.onrender.com/products")
       .then(res => {
         setProducts(res.data);
         const initialColors = {};
