@@ -5,7 +5,7 @@ const products = require("./product.json");
 
 const app = express();
 
-app.use(cors( origin: "https://gold-shop-6g7fgk6qb-sedras-projects-de4de675.vercel.app"));
+app.use(cors());
 
 // Cache için değişken
 let cachedGoldPrice = null; // gram başına USD
@@ -61,4 +61,5 @@ app.get("/products", async (req, res) => {
 
 const PORT = 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
 
